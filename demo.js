@@ -1,7 +1,7 @@
 console.clear()
 const { Client } = require('pg')
 const client = new Client({
-  connectionString: 'postgres://localhost/pg-demo'
+  connectionString: 'postgres://localhost/MiniNodePostgres'
 })
 
 const connect = async () => {
